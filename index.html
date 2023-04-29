@@ -9,6 +9,18 @@
     </head>
     <body>
         <h1>Cellular automata</h1>
+        <p><button id="next">GOGO</button></p>
+        <fieldset>
+            <legend>Select state:</legend>
+            <div>
+                <input type="radio" id="dead" name="state" value="dead" checked />
+                <label for="dead">Dead</label>
+            </div>
+            <div>
+                <input type="radio" id="alive" name="state" value="alive" checked />
+                <label for="alive">Alive</label>
+            </div>
+        </fieldset>
         <canvas id="app"></canvas>
         <script src="index.js"></script>
     </body>
